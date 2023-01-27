@@ -177,7 +177,7 @@ I refresh the materialized view with data so it displays the up-to-date data and
 Task 9 : Import data into Datasette.
 The external payroll company have asked me to upload the staff location information to their Datasette database.
 
-i copy and enter this URL: https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0110EN-SkillsNetwork/Datasetteoptionallabs/Week4/data/staff_locations_view.csv of the staff_locations_view.csv file, which contains the staff location information and i explore the new table and then view the data in it.
+I copy and enter this URL: https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBM-DB0110EN-SkillsNetwork/Datasetteoptionallabs/Week4/data/staff_locations_view.csv of the staff_locations_view.csv file, which contains the staff location information and i explore the new table and then view the data in it.
 
 
 
