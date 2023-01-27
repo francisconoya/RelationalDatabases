@@ -125,10 +125,20 @@ The external payroll company have requested a list of employees and the location
 In my COFFEE database, I create a new view named staff_locations_view using the following SQL:
 
 1 SELECT staff.staff_id,
+
+
 2 staff.first_name,
+
+
 3 staff.last_name,
+
+
 4 staff.location
+
+
 5 FROM staff
+
+
 6 WHERE "position" NOT IN ('CEO', 'CFO');
 
 
@@ -142,9 +152,17 @@ Task 8 : Create a materialized view and export the data.
 In my COFFEE database, I create a new materialized view named product_info_m-view using the following SQL:
 
 1 SELECT product.product_name, product.description, product_type.product_category
+
+
 2 FROM product
+
+
 3 JOIN product_type
+
+
 4 ON product.product_type_id = product_type.product_type_id;
+
+
 
 I refresh the materialized view with data so it displays the up-to-date data and i view all the rows returned from the view. Then, I save the results of the query to a file named product_info_m-view.csv on my local computer storage.
 
