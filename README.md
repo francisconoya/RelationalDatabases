@@ -1,6 +1,7 @@
 # RelationalDatabases
 IBM's Data Engineering Professinal Certificate Course 4
 
+PostgreSQL, MySQL, DB2, pgAdmin, SQL.
 
 In this scenario, I have recently been hired as a Data Engineer by a New York based coffee shop chain that is looking to expand nationally by opening a number of franchise locations. As part of their expansion process, they want to streamline operations and revamp their data infrastructure.
 
